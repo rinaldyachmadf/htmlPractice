@@ -1,0 +1,13 @@
+1. Untuk menghubungkan web dengan web lainnya (Contoh: <a href="http//www.google.com></a>")
+2. Apabila file berada dalam satu folder maka bisa langsung masukan file tujuannya
+    (Contoh:<a href="halaman1.html") 
+3. Apabila file yang satunya berada di folder yang lainnya tetapi masih dalam satu folder
+    maka harus dimasukan dulu tujuan foldernya baru file tujuannya
+    (Contoh:<a href="admin/halaman2.html">)
+4. Apabila file yang dituju berada di satu level diatas maka harus kembali dulu ke
+    1 level direktori sebelumnya barulah masukan file tujuannya
+    (Contoh: <a href="../halaman1.html">)
+5. Apabila file yang dituju berada di suatu folder dan berada di satu level
+    sebelumnya makan harus naik dulu satu level direktorinya lalu masuk ke foldernya baru
+    masukan filenya (Contoh: ../user/halaman1.html)
+6. Page Anchor: Pindah ke suatu bagian tertentu dari suatu halaman yang dituju
